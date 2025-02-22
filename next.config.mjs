@@ -12,6 +12,8 @@ const nextConfig = {
   distDir: "out", // Export files to 'out' folder
   images: { unoptimized: true }, // Disable image optimization for GitHub Pages
   trailingSlash: true, // Ensures proper routing on GitHub Pages
+  basePath: "", // No extra repo name in the URL
+  assetPrefix: "/", // Fix asset loading issues
 };
 
 export default withMDX(nextConfig);
