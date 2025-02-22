@@ -1,0 +1,43 @@
+---
+title: "Land Type Detection using Deep Learning and Machine Learning"
+publishedAt: "2025-02-22"
+summary: "A hybrid approach using InceptionV3 and machine learning to classify land types from satellite images, achieving 98% accuracy."
+images:
+  - "/images/projects/project-01/cover-01.png"
+  - "/images/projects/project-01/cover-02.png"
+team:
+  - name: "Omkar Kukarni"
+    role: "Researcher & Developer"
+    avatar: "/images/avatar.jpeg"
+    linkedIn: "https://www.linkedin.com/in/omkarkulkarni7/"
+link: "https://your-project-link.com/"
+---
+
+## Overview
+
+This project focuses on land type classification using a hybrid approach combining deep learning and machine learning. We utilized the **UC Merced dataset** and **NASA satellite images**, leveraging **InceptionV3** for feature extraction and **Weka** for classification. The goal was to improve land-use monitoring through an accurate and scalable detection system.
+
+## Key Features
+
+- **Deep Learning Feature Extraction**: Used **InceptionV3** to extract deep features from satellite images, capturing high-level spatial patterns.
+- **Texture Feature Analysis**: Extracted **GLCM-based texture features** (contrast, homogeneity, correlation) to enhance classification accuracy.
+- **Machine Learning Classification**: Trained **LMT, RF, and RT** classifiers in **Weka**, achieving up to **98% accuracy** using **10-fold cross-validation**.
+- **Web-Based Deployment**: Developed an interactive web interface allowing users to upload satellite images and receive land-type predictions.
+
+## Technologies Used
+
+- **InceptionV3**: Deep learning-based feature extractor for satellite imagery.
+- **Weka**: Machine learning toolkit for classification and analysis.
+- **GLCM (Gray Level Co-occurrence Matrix)**: Texture feature extraction for improved classification accuracy.
+- **Python & OpenCV**: For preprocessing and feature extraction.(Tensorflow)
+- **Flask & React**: To build a web-based interface for real-time classification.
+
+## Challenges and Learnings
+
+- **High Dimensionality**: Managing large feature vectors from deep learning and texture extraction required dimensionality reduction techniques.
+- **Data Generalization**: Ensuring the model performs well on different datasets, including **NASA Landsat images**.
+- **Web Deployment**: Optimizing model inference time for a smooth user experience in a web environment.
+
+## Outcome
+
+This project successfully combined deep learning and machine learning to classify land types with **98% accuracy**. The web interface enables seamless interaction, allowing users to analyze satellite images effortlessly. Future improvements include **real-time data integration and cloud-based processing** to expand scalability.

@@ -191,25 +191,22 @@ const Background = forwardRef<HTMLDivElement, BackgroundProps>(
       >
         {gradient.display && (
           <Flex
-            position="absolute"
-            className={styles.gradient}
-            opacity={gradient.opacity}
-            pointerEvents="none"
-            style={{
-              ["--gradient-position-x" as string]: `${adjustedX}%`,
-              ["--gradient-position-y" as string]: `${adjustedY}%`,
-              ["--gradient-width" as string]:
-                gradient.width != null ? `${gradient.width / 4}%` : "25%",
-              ["--gradient-height" as string]:
-                gradient.height != null ? `${gradient.height / 4}%` : "25%",
-              ["--gradient-tilt" as string]: gradient.tilt != null ? `${gradient.tilt}deg` : "0deg",
-              ["--gradient-color-start" as string]: gradient.colorStart
-                ? `var(--${gradient.colorStart})`
-                : "var(--brand-solid-strong)",
-              ["--gradient-color-end" as string]: gradient.colorEnd
-                ? `var(--${gradient.colorEnd})`
-                : "var(--brand-solid-weak)",
-            }}
+          position="absolute"
+          className={styles.gradient}
+          opacity={gradient.opacity}
+          pointerEvents="none"
+          style={{
+            ["--gradient-position-x" as string]: `${adjustedX}%`,
+            ["--gradient-position-y" as string]: `${adjustedY}%`,
+            ["--gradient-width" as string]:
+              gradient.width != null ? `${gradient.width / 4}%` : "25%",
+            ["--gradient-height" as string]:
+              gradient.height != null ? `${gradient.height / 4}%` : "25%",
+            ["--gradient-tilt" as string]: gradient.tilt != null ? `${gradient.tilt}deg` : "0deg",
+            ["--gradient-color-start" as string]: "#4A90E2", // Light Blue
+            ["--gradient-color-end" as string]: "#283593",   // Dark Blue
+          }}
+          
           />
         )}
         {dots.display && (
