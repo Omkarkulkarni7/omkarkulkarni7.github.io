@@ -1,0 +1,115 @@
+2:I[8047,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"Column"]
+4:I[9818,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"ProjectCard"]
+8:I[4707,[],""]
+9:I[6423,[],""]
+3:T632,{"@context":"https://schema.org","@type":"CollectionPage","headline":"My projects","description":"Design and dev projects by Omkar Kulkarni","url":"https://demo.magic-portfolio.com/projects","image":"demo.magic-portfolio.com/og?title=Design%20Projects","author":{"@type":"Person","name":"Omkar Kulkarni"},"hasPart":[{"@type":"CreativeWork","headline":"Land Type Detection using Deep Learning and Machine Learning","description":"A hybrid approach using InceptionV3 and machine learning to classify land types from satellite images, achieving 98% accuracy.","url":"https://demo.magic-portfolio.com/projects/Land-Use-Detection-Using-DL-ML","image":"demo.magic-portfolio.com/"},{"@type":"CreativeWork","headline":"Redesigning & Developing Safety Saarthi's Website","description":"A complete redesign and development of Safety Saarthi's website using Figma, Angular, and AWS cloud services for hosting and scalability.","url":"https://demo.magic-portfolio.com/projects/safety-saarthi","image":"demo.magic-portfolio.com/"},{"@type":"CreativeWork","headline":"Simple portfolio creator built with Once UI and Next.js","description":"","url":"https://demo.magic-portfolio.com/projects/simple-portfolio-builder","image":"demo.magic-portfolio.com/"},{"@type":"CreativeWork","headline":"WealthWise - Investment & Stock Portfolio Tracker","description":"A comprehensive investment and stock portfolio management platform that allows users to track, buy, and sell stocks with real-time market data.","url":"https://demo.magic-portfolio.com/projects/WealthWise","image":"demo.magic-portfolio.com/"}]}5:T887,
+## Overview
+
+This project focuses on land type classification using a hybrid approach combining deep learning and machine learning. We utilized the **UC Merced dataset** and **NASA satellite images**, leveraging **InceptionV3** for feature extraction and **Weka** for classification. The goal was to improve land-use monitoring through an accurate and scalable detection system.
+
+## Key Features
+
+- **Deep Learning Feature Extraction**: Used **InceptionV3** to extract deep features from satellite images, capturing high-level spatial patterns.
+- **Texture Feature Analysis**: Extracted **GLCM-based texture features** (contrast, homogeneity, correlation) to enhance classification accuracy.
+- **Machine Learning Classification**: Trained **LMT, RF, and RT** classifiers in **Weka**, achieving up to **98% accuracy** using **10-fold cross-validation**.
+- **Web-Based Deployment**: Developed an interactive web interface allowing users to upload satellite images and receive land-type predictions.
+
+## Technologies Used
+
+- **InceptionV3**: Deep learning-based feature extractor for satellite imagery.
+- **Weka**: Machine learning toolkit for classification and analysis.
+- **GLCM (Gray Level Co-occurrence Matrix)**: Texture feature extraction for improved classification accuracy.
+- **Python & OpenCV**: For preprocessing and feature extraction.(Tensorflow)
+- **Flask & React**: To build a web-based interface for real-time classification.
+
+## Challenges and Learnings
+
+- **High Dimensionality**: Managing large feature vectors from deep learning and texture extraction required dimensionality reduction techniques.
+- **Data Generalization**: Ensuring the model performs well on different datasets, including **NASA Landsat images**.
+- **Web Deployment**: Optimizing model inference time for a smooth user experience in a web environment.
+
+## Outcome
+
+This project successfully combined deep learning and machine learning to classify land types with **98% accuracy**. The web interface enables seamless interaction, allowing users to analyze satellite images effortlessly. Future improvements include **real-time data integration and cloud-based processing** to expand scalability.
+6:T7e6,
+## Overview
+
+This project involved redesigning and developing the official website for **Safety Saarthi**, a fire system installation company. The goal was to enhance user experience, improve performance, and ensure seamless deployment using cloud technologies. 
+
+I started by **redesigning the website in Figma**, focusing on a modern, intuitive UI/UX. Then, I built the frontend using **Angular** for a dynamic and responsive experience. The website was deployed using **AWS services** for optimal performance and scalability.
+
+## Key Features
+
+- **Modern UI/UX Redesign**: Created a professional and user-friendly design in Figma.
+- **Built with Angular**: Developed a fast, scalable frontend using Angular’s component-based architecture.
+- **AWS-Powered Hosting**: Utilized AWS services for secure and efficient deployment:
+  - **S3** for static hosting  
+  - **CloudFront** for content delivery  
+  - **Route 53** for domain management  
+  - **AWS Lambda** for email functions  
+
+## Technologies Used
+
+- **Figma** – UI/UX design & prototyping  
+- **Angular** – Frontend framework for dynamic user interfaces  
+- **AWS S3, CloudFront, Route 53, Lambda** – Scalable cloud hosting  
+- **TypeScript & SCSS** – Clean, maintainable code structure  
+
+## Challenges & Learnings
+
+One of the main challenges was optimizing performance for a fast-loading experience. Using **CloudFront for caching** and **lazy loading Angular modules** helped achieve smooth performance. Additionally, integrating AWS services efficiently required setting up proper IAM roles and policies for security.
+
+## Outcome
+
+The redesigned Safety Saarthi website is now **live at [www.safetysaarthi.com](https://www.safetysaarthi.com)**, offering a professional, high-performance platform for customers to learn about fire safety solutions. The new design and AWS-powered infrastructure have improved both **usability** and **reliability**, helping the company establish a stronger digital presence.
+
+---
+
+
+7:T872,
+## Overview
+
+**WealthWise** is a stock investment and portfolio tracking platform that enables users to manage their financial assets efficiently. It provides real-time stock market data, investment tracking, and seamless transactions through a secure banking integration.
+
+I built this platform using the **MERN stack**, leveraging **Alpha Vantage API** for real-time stock data and implementing **secure banking transactions** with dummy accounts. The platform ensures seamless user experience with a **Material UI frontend** and **optimized backend API**.
+
+## Key Features
+
+- **Stock Market Dashboard**: Displays real-time stock prices from NSE & BSE.
+- **Investment Portfolio Management**: Users can track stocks they own and view profit/loss calculations.
+- **Stock Trading (Buy/Sell)**: Users can invest in stocks using funds from their **dummy bank accounts**.
+- **Secure Transactions**: Implements authentication & banking transactions securely.
+- **Historical Data & Insights**: Users can view stock performance over time.
+- **Material UI & Responsive Design**: Built with a modern UI for seamless navigation.
+
+## Technologies Used
+
+- **Tech Stack (PostgreSQL, Express, React, Node.js)** – Full-stack implementation  
+- **Sequelize ORM** – PostgreSQL database integration  
+- **Alpha Vantage API** – Real-time stock data  
+- **Material UI** – Clean and professional UI components  
+- **JWT Authentication & OAuth** – Secure user authentication  
+- **AWS (S3, EC2, RDS)** – Cloud hosting & database management  
+
+## Challenges & Learnings
+
+Building a **real-time stock tracking system** required handling frequent API calls efficiently. Implementing **caching mechanisms** and optimizing database queries helped ensure smooth performance. Additionally, handling **secure banking transactions** involved designing robust validation mechanisms.
+
+## Outcome
+
+WealthWise is now a **fully functional investment platform**, offering users a seamless way to manage stocks and portfolios. With real-time stock data and secure banking integration, it helps investors **make informed decisions** effortlessly.
+
+---
+
+0:["oopqJB9uQbJP6lm6NZqdw",[[["",{"children":["work",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["work",{"children":["__PAGE__",{},[["$L1",["$","$L2",null,{"maxWidth":"m","children":[["$","script",null,{"type":"application/ld+json","suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"$3"}}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","Land-Use-Detection-Using-DL-ML",{"priority":true,"href":"work/Land-Use-Detection-Using-DL-ML","images":["/images/projects/project-01/cover-01.png","/images/projects/project-01/cover-02.png"],"title":"Land Type Detection using Deep Learning and Machine Learning","description":"A hybrid approach using InceptionV3 and machine learning to classify land types from satellite images, achieving 98% accuracy.","content":"$5","avatars":[{"src":"/images/avatar.jpeg"}],"link":"https://your-project-link.com/"}],["$","$L4","safety-saarthi",{"priority":true,"href":"work/safety-saarthi","images":["/images/projects/project-03/homepage.png","/images/projects/project-03/contact.png"],"title":"Redesigning & Developing Safety Saarthi's Website","description":"A complete redesign and development of Safety Saarthi's website using Figma, Angular, and AWS cloud services for hosting and scalability.","content":"$6","avatars":[{"src":"/images/avatar.jpeg"}],"link":"https://www.safetysaarthi.com"}],["$","$L4","simple-portfolio-builder",{"priority":false,"href":"work/simple-portfolio-builder","images":["/images/projects/project-04/homepage.png","/images/projects/project-04/about.png"],"title":"Simple portfolio creator built with Once UI and Next.js","description":"","content":"","avatars":[],"link":""}],["$","$L4","WealthWise",{"priority":false,"href":"work/WealthWise","images":["/images/projects/project-02/cover-01.png","/images/projects/project-02/cover-02.png"],"title":"WealthWise - Investment & Stock Portfolio Tracker","description":"A comprehensive investment and stock portfolio management platform that allows users to track, buy, and sell stocks with real-time market data.","content":"$7","avatars":[{"src":"/images/avatar.jpeg"}],"link":"https://wealthwise.com"}]]}]]}],null],null],null]},[null,["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children","work","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/15b9922eb12b1bb5.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/c48a261a3c8edf3c.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/a8c4e1ca9815a60e.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/e578cf952a0222b2.css","precedence":"next","crossOrigin":"$undefined"}]],"$La"],null],null],["$Lb",null]]]]
+c:I[1162,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"Flex"]
+d:I[6995,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"ToastProvider"]
+e:I[124,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"Background"]
+f:I[9295,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"Header"]
+10:I[1844,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"RouteGuard"]
+11:I[2060,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"Text"]
+12:I[9316,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"Heading"]
+13:I[7868,["665","static/chunks/f97e080b-82142bce571282c5.js","240","static/chunks/53c13509-59dce8ec7d519f72.js","516","static/chunks/f7333993-771a495057fa5276.js","464","static/chunks/464-5b46459779776405.js","7","static/chunks/7-39428d31752a06f4.js","854","static/chunks/854-370054d32c2c3c0b.js","534","static/chunks/app/work/page-e73be6b8a49a95a1.js"],"IconButton"]
+a:["$","$Lc",null,{"as":"html","lang":"en","background":"page","data-neutral":"gray","data-brand":"emerald","data-accent":"orange","data-solid":"contrast","data-solid-style":"flat","data-theme":"dark","data-border":"playful","data-surface":"translucent","data-transition":"all","className":"__variable_d65c78 __variable_bcf733","children":["$","$Ld",null,{"children":["$","$L2",null,{"style":{"minHeight":"100vh"},"as":"body","fillWidth":true,"margin":"0","padding":"0","children":[["$","$Le",null,{"mask":{"cursor":true,"x":0,"y":0,"radius":75},"gradient":{"display":true,"x":50,"y":0,"width":100,"height":100,"tilt":0,"colorStart":"brand-background-strong","colorEnd":"static-transparent","opacity":50},"dots":{"display":true,"color":"brand-on-background-weak","size":2,"opacity":20},"grid":{"display":false,"color":"neutral-alpha-weak","width":"$undefined","height":"$undefined","opacity":100},"lines":{"display":false,"opacity":100}}],["$","$Lc",null,{"fillWidth":true,"minHeight":"16"}],["$","$Lf",null,{}],["$","$Lc",null,{"position":"relative","zIndex":0,"fillWidth":true,"paddingY":"l","paddingX":"l","horizontal":"center","flex":1,"children":["$","$Lc",null,{"horizontal":"center","fillWidth":true,"minHeight":"0","children":["$","$L10",null,{"children":["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L2",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","$L11",null,{"marginBottom":"s","variant":"display-strong-xl","children":"404"}],["$","$L12",null,{"marginBottom":"l","variant":"display-default-xs","children":"Page Not Found"}],["$","$L11",null,{"onBackground":"neutral-weak","children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}]}]}]}],["$","$Lc",null,{"as":"footer","position":"relative","fillWidth":true,"padding":"8","horizontal":"center","mobileDirection":"column","children":[["$","$Lc",null,{"className":"Footer_mobile__TYNqJ","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"space-between","vertical":"center","children":[["$","$L11",null,{"variant":"body-default-s","onBackground":"neutral-strong","children":[["$","$L11",null,{"onBackground":"neutral-weak","children":["© ",2025," /"]}],["$","$L11",null,{"paddingX":"4","children":"Omkar Kulkarni"}]]}],["$","$Lc",null,{"gap":"16","children":[["$","$L13","GitHub",{"href":"https://github.com/Omkarkulkarni777","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L13","LinkedIn",{"href":"https://www.linkedin.com/in/omkarkulkarni7/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L13","X",{"href":"https://x.com/vishwa7203","icon":"x","tooltip":"X","size":"s","variant":"ghost"}],["$","$L13","Email",{"href":"mailto:kulkarniomkar2003@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$Lc",null,{"height":"80","show":"s"}]]}]]}]}]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"My projects"}],["$","meta","3",{"name":"description","content":"Design and dev projects by Omkar Kulkarni"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"property":"og:title","content":"My projects"}],["$","meta","7",{"property":"og:description","content":"Design and dev projects by Omkar Kulkarni"}],["$","meta","8",{"property":"og:url","content":"https://demo.magic-portfolio.com/work/"}],["$","meta","9",{"property":"og:image","content":"https://demo.magic-portfolio.com/og?title=My%20projects"}],["$","meta","10",{"property":"og:image:alt","content":"My projects"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"My projects"}],["$","meta","14",{"name":"twitter:description","content":"Design and dev projects by Omkar Kulkarni"}],["$","meta","15",{"name":"twitter:image","content":"https://demo.magic-portfolio.com/og?title=My%20projects"}],["$","link","16",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"254x256"}]]
+1:null
