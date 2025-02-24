@@ -120,7 +120,7 @@ const about = {
       },
       {
         company: "Script Analytica",
-        timeframe: "2018 - 2022",
+        timeframe: "2024",
         role: "SDE Intern",
         achievements: [
           <>
