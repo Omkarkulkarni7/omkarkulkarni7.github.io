@@ -1,5 +1,4 @@
 import { InlineCode } from "@/once-ui/components";
-import { link } from "fs";
 
 const person = {
   firstName: "Omkar",
@@ -51,7 +50,7 @@ const social = [
     name: "Resume",
     icon: "resume",
     link: "https://drive.google.com/file/d/1iUqcmLwBy_qh_9a7K38z59SESMHBu9n7/view?usp=sharing",
-  }
+  },
 ];
 
 const home = {
