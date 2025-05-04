@@ -49,7 +49,7 @@ const social = [
   {
     name: "Resume",
     icon: "resume",
-    link: "https://drive.google.com/file/d/1iUqcmLwBy_qh_9a7K38z59SESMHBu9n7/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1FdbgzcsDdXiZDzafnX6UtzjqYPg55aq2/view?usp=sharing",
   },
 ];
 
